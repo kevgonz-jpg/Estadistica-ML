@@ -1,0 +1,14 @@
+.callout[data-callout="simple"] {
+    --callout-color: 0, 0, 0;
+    --callout-icon: CircleChevronDown;
+    background-color: transparent !important;
+}
+.callout[data-callout="simple"] .callout-icon { display: none; }
+.callout[data-callout="simple"] .callout-content {
+    background-color: rgba(var(--callout-color), 0.005);
+}
+.callout[data-callout="simple"] {
+    --callout-radius: 20px;
+    border-left: 2px solid rgba(var(--callout-color), 1);
+    box-shadow: 1px 3px 9px rgba(114, 2, 2, 0.952);
+}
