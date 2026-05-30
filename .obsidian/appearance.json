@@ -1,0 +1,16 @@
+{
+  "theme": "obsidian",
+  "accentColor": "#b20101",
+  "cssTheme": "",
+  "interfaceFontFamily": "Cambria Math",
+  "monospaceFontFamily": "",
+  "textFontFamily": "Times New Roman",
+  "baseFontSize": 14,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "mi-callout-rojo",
+    "Destacado",
+    "simple"
+  ]
+}
