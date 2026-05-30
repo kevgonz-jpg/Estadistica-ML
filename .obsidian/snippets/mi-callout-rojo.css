@@ -1,0 +1,4 @@
+.callout[data-callout="rojo"] {
+    --callout-color: 255, 0, 0;
+    --callout-icon: lucide-flame;
+}
