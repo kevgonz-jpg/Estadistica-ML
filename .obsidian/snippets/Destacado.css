@@ -1,0 +1,17 @@
+.callout[data-callout="destacado"] {
+    --callout-color: 200, 100, 0;
+    --callout-icon: lucide-sparkles;
+    background-color: transparent !important;
+}
+.callout[data-callout="destacado"] .callout-title {
+    background-color: rgba(var(--callout-color), 1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.callout[data-callout="destacado"] .callout-content {
+    background-color: rgba(var(--callout-color), 0.05);
+}
+.callout[data-callout="destacado"] {
+    --callout-radius: 15px;
+    border-left: 5px solid rgba(var(--callout-color), 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
